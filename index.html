@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<title>Our first Angular App</title>
+<script src="node_modules/core-js/client/shim.min.js"></script>
+<script src="node_modules/zone.js/dist/zone.js"></script>
+<script src="node_modules/reflect-metadata/Reflect.js"></script>
+<script src="node_modules/systemjs/dist/system.src.js"></script>
+ </head>
+ <body>
+<script src="resources/systemjsconfig.js" > </script>
+ <script>
+   
+ System.import('app.js')
+ .then(null, console.error.bind(console));
+ </script>
+
+ <hello-angular></hello-angular>
+
+ </body>
+ </html>

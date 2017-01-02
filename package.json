@@ -1,0 +1,36 @@
+{
+  "name": "hello-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@angular/common": "^2.4.1",
+    "@angular/compiler": "^2.4.1",
+    "@angular/core": "^2.4.1",
+    "@angular/platform-browser": "^2.4.1",
+    "@angular/platform-browser-dynamic": "^2.4.1",
+    "concurrently": "^3.1.0",
+    "core-js": "^2.4.1",
+    "es6-promise": "^4.0.5",
+    "es6-shim": "^0.35.2",
+    "local-web-server": "^1.2.6",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.0.2",
+    "systemjs": "^0.19.41",
+    "zone.js": "^0.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labidiaymen/aymen.co-angular.git"
+  },
+  "author": "Labidi Aymen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/labidiaymen/aymen.co-angular/issues"
+  },
+  "homepage": "https://github.com/labidiaymen/aymen.co-angular#readme"
+}
